@@ -33,19 +33,19 @@ The model is built on an enhanced object detection framework with:
    cd road-condition-foundation-model
 
 
-### 1️⃣ Training the Model:
+## 1️⃣ Training the Model:
 ```bash
 python train.py --config configs/train_config.yaml
 
-### 2️⃣ Inference with Pretrained Weights:
+## 2️⃣ Inference with Pretrained Weights:
 ```bash
 python predict.py --weights pretrained/model_weights.pt --mode inference
 
-### 3️⃣ Fine-Tuning for Custom Dataset:
+## 3️⃣ Fine-Tuning for Custom Dataset:
 
 python train.py --weights pretrained/model_weights.pt --config configs/fine_tune.yaml
 
-### 📊 Datasets
+## 📊 Datasets
 The model was trained on diverse datasets capturing:
 
 17 road condition types, including surface defects, structural failures, and roadside hazards.
