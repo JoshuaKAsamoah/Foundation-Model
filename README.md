@@ -34,16 +34,16 @@ The model is built on an enhanced object detection framework with:
 
 
 2. Training the Model:
-```bash
-python train.py --config configs/train_config.yaml
+   ```bash
+   python train.py --config configs/train_config.yaml
 
-## Inference with Pretrained Weights:
-```bash
-python predict.py --weights pretrained/model_weights.pt --mode inference
+3. Inference with Pretrained Weights:
+   ```bash
+   python predict.py --weights pretrained/model_weights.pt --mode inference
 
-## 3️⃣ Fine-Tuning for Custom Dataset:
-
-python train.py --weights pretrained/model_weights.pt --config configs/fine_tune.yaml
+4. Fine-Tuning for Custom Dataset:
+   ```bash
+   python train.py --weights pretrained/model_weights.pt --config configs/fine_tune.yaml
 
 ## 📊 Datasets
 The model was trained on diverse datasets capturing:
