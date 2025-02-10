@@ -11,8 +11,10 @@ This repository contains the code, model architecture, and pretrained weights fo
 ---
 
 ## 📦 Repository Structure
-road-condition-foundation-model/ ├── model.py # Model architecture with adaptive feature refinement ├── run_training.py # Training script for model optimization ├── utils/ # Utility functions for data preprocessing and evaluation ├── datasets/ # Instructions or scripts for dataset preparation ├── pretrained/ # Pretrained model weights ├── requirements.txt # Dependencies required to run the project └── README.md # This documentation
-
+Model architecture with adaptive feature refinement ├── model.py 
+Training script for model optimization├── run train.py 
+Pretrained model weights ├── pretrained/
+This documentation└── README.md 
 
 ## 🏗️ Model Architecture
 The model is built on an enhanced object detection framework with:
