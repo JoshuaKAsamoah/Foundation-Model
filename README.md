@@ -34,16 +34,16 @@ The model is built on an enhanced object detection framework with:
 
 ## 🏃‍♂️ Usage
 1️⃣ Training the Model:
-
-python run_training.py --config configs/train_config.yaml
+```bash
+python train.py --config configs/train_config.yaml
 
 2️⃣ Inference with Pretrained Weights:
-
-python run_training.py --weights pretrained/model_weights.pth --mode inference
+```bash
+python predict.py --weights pretrained/model_weights.pt --mode inference
 
 3️⃣ Fine-Tuning for Custom Dataset:
 
-python run_training.py --weights pretrained/model_weights.pth --config configs/fine_tune.yaml
+python train.py --weights pretrained/model_weights.pt --config configs/fine_tune.yaml
 
 ## 📊 Datasets
 The model was trained on diverse datasets capturing:
@@ -58,4 +58,5 @@ Pretrained model weights are available here.
 You can use these weights for:
 
 Fine-tuning on domain-specific data
+
 Zero-shot learning applications
