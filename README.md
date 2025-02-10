@@ -1,6 +1,3 @@
-# Foundation-Model
-Foundation Model for Road Condition Monitoring
-
 # Road Condition Foundation Model
 
 This repository contains the code, model architecture, and pretrained weights for the **Road Condition Foundation Model**, designed to improve road condition assessment through adaptive feature refinement. The model is trained on diverse datasets capturing road conditions from different perspective views, enabling robust generalization across varying environments.
