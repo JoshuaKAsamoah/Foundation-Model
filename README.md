@@ -38,9 +38,11 @@ The model is built on an enhanced object detection framework with:
 python run_training.py --config configs/train_config.yaml
 
 2️⃣ Inference with Pretrained Weights:
+
 python run_training.py --weights pretrained/model_weights.pth --mode inference
 
 3️⃣ Fine-Tuning for Custom Dataset:
+
 python run_training.py --weights pretrained/model_weights.pth --config configs/fine_tune.yaml
 
 ## 📊 Datasets
