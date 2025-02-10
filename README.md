@@ -13,7 +13,7 @@ This repository contains the code, model architecture, and pretrained weights fo
 ## 📦 Repository Structure
 Model architecture with adaptive feature refinement ├── model.py 
 Training script for model optimization├── run train.py 
-Pretrained model weights ├── pretrained/
+Pretrained model weights ├── best.pt
 This documentation└── README.md 
 
 ## 🏗️ Model Architecture
