@@ -33,11 +33,11 @@ The model is built on an enhanced object detection framework with:
    cd road-condition-foundation-model
 
 
-## 1️⃣ Training the Model:
+## Training the Model:
 ```bash
 python train.py --config configs/train_config.yaml
 
-## 2️⃣ Inference with Pretrained Weights:
+## Inference with Pretrained Weights:
 ```bash
 python predict.py --weights pretrained/model_weights.pt --mode inference
 
