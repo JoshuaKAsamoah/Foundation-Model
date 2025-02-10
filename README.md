@@ -33,7 +33,7 @@ The model is built on an enhanced object detection framework with:
    cd road-condition-foundation-model
 
 
-## Training the Model:
+2. Training the Model:
 ```bash
 python train.py --config configs/train_config.yaml
 
